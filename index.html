@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b8fa3feae3.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Saas company</title>
   </head>
   <body>
     <header>
-      <div class="logo"><img src="" alt="" /></div>
+      <div class="logo"><img src="assets/logos/logo-front.svg" /></div>
       <div class="nav-menu">
         <ul class="main-nav">
           <li><a href="">Home</a></li>
@@ -16,8 +20,8 @@
           <li><a href="">Learn</a></li>
           <li><a href="">Pricing</a></li>
           <li><a href="">Hire us</a></li>
-          <button>Buy Now</button>
         </ul>
+        <button>Buy Now</button>
       </div>
     </header>
     <section id="hero-section">
@@ -32,13 +36,21 @@
         </div>
       </div>
       <div class="logo-column">
-        <div class="asana"></div>
-        <div class="calendar"></div>
-        <div class="weave"></div>
-        <div class="paypal"></div>
-        <div class="attlasian"></div>
-        <div class="googleAds"></div>
-        <div class="google"></div>
+        <div class="asana">
+          <img src="assets/logos/asana.png" alt="" />
+        </div>
+        <div class="calendar">
+          <img src="assets/logos/calendar.png" alt="" />
+        </div>
+        <div class="weave"><img src="assets/logos/weave.png" alt="" /></div>
+        <div class="paypal"><img src="assets/logos/paypal.jpg" alt="" /></div>
+        <div class="attlasian">
+          <img src="assets/logos/atlassian.png" alt="" />
+        </div>
+        <div class="googleAds">
+          <img src="assets/logos/google-ads.png" alt="" />
+        </div>
+        <div class="google"><img src="assets/logos/google.png" alt="" /></div>
       </div>
     </section>
     <section id="whyFrontSection">
@@ -51,19 +63,19 @@
       </div>
       <div class="feature-row">
         <div class="feature">
-          <i class="feature-point"></i>
+          <i class="fa-solid fa-circle"></i>
           <p class="feature-text">Basic elements</p>
         </div>
         <div class="feature">
-          <i class="feature-point"></i>
+          <i class="fa-solid fa-circle"></i>
           <p class="feature-text">Components</p>
         </div>
         <div class="feature">
-          <i class="feature-point"></i>
+          <i class="fa-solid fa-circle"></i>
           <p class="feature-text">Combined components</p>
         </div>
         <div class="feature">
-          <i class="feature-point"></i>
+          <i class="fa-solid fa-circle"></i>
           <p class="feature-text">Page layouts</p>
         </div>
       </div>
@@ -88,7 +100,9 @@
         <div class="feature-box">
           <div class="feature-row row1">
             <div class="item item1">
-              <div class="icon"><img src="" alt="" /></div>
+              <div class="icon">
+                <img src="assets/images/components.svg" alt="" />
+              </div>
               <h3>Hundreds of components</h3>
               <p>
                 Achieve maximum productivity with minimum effort with Front and
@@ -96,7 +110,9 @@
               </p>
             </div>
             <div class="item item2">
-              <div class="icon"><img src="" alt="" /></div>
+              <div class="icon">
+                <img src="assets/images/images.svg" alt="" />
+              </div>
               <h3>Images included</h3>
               <p>
                 Images included We made custom license for all our premium
@@ -106,12 +122,16 @@
           </div>
           <div class="feature-row row2">
             <div class="item item3">
-              <div class="icon"><img src="" alt="" /></div>
+              <div class="icon">
+                <img src="assets/images/cancel.svg" alt="" />
+              </div>
               <h3>Cancel anytime <span>sketch</span></h3>
               <p>If its not for you, just cancel, no hidden costs or fees.</p>
             </div>
             <div class="item item4">
-              <div class="icon"><img src="" alt="" /></div>
+              <div class="icon">
+                <img src="assets/images/moneyback.svg" alt="" />
+              </div>
               <h3>Money Back</h3>
               <p>100% guarateed money back. No questions asked.</p>
             </div>
@@ -131,9 +151,9 @@
           </p>
         </div>
         <div class="hire-column-bottom">
-          <h3></h3>
+          <h3>Charlotte Moore</h3>
           <p>Head of Commercials, Slack</p>
-          <img src="" alt="" />
+          <img src="assets/images/man_one.jpg" alt="" />
         </div>
       </div>
       <div class="contact">
@@ -146,9 +166,110 @@
               <input type="text" placeholder="First name" />
               <input type="text" placeholder="Last name" />
             </div>
+            <div class="form-email">
+              <input type="email" placeholder="email" />
+            </div>
+            <div class="dropdowns">
+              <div class="budget">
+                <select name="budget" id="budget">
+                  <option value="">Budget</option>
+                  <option value="cat">Cat</option>
+                  <option value="hamster">Hamster</option>
+                  <option value="parrot">Parrot</option>
+                  <option value="spider">Spider</option>
+                  <option value="goldfish">Goldfish</option>
+                </select>
+              </div>
+              <div class="Country">
+                <select name="Country" id="Country">
+                  <option value="">Country</option>
+                  <option value="cat">Cat</option>
+                  <option value="hamster">Hamster</option>
+                  <option value="parrot">Parrot</option>
+                  <option value="spider">Spider</option>
+                  <option value="goldfish">Goldfish</option>
+                </select>
+              </div>
+            </div>
+            <div class="info-text">
+              <textarea
+                name="description"
+                id="description"
+                rows="5"
+                placeholder="Tell us more about your project, needs, and timeline, please..."
+              ></textarea>
+            </div>
+            <div class="liability-waiver">
+              <input type="checkbox" name="checkbox" />
+              <label for="checkbox">
+                Yes, I'd like to receive occasional marketing emails from Front.
+                I have the right to opt out at any time.
+
+                <a href="">View privacy policy</a>
+                <a href="">View privacy policy</a>
+              </label>
+            </div>
           </div>
+          <button type="submit">Submit Form</button>
         </form>
       </div>
     </section>
+    <footer>
+      <div class="contact-area">
+        <div class="logo-footer">
+          <img src="assets/logos/logo-front.svg" alt="" />
+        </div>
+        <div class="address">
+          <i class="fa-solid fa-location-arrow"></i>
+          <p>453 Williamson Plaza, Maggieberg</p>
+        </div>
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel" class="phone">+1 (062) 109-9222</a>
+        </div>
+      </div>
+      <div class="company-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="">About</a></li>
+          <li>
+            <a href="">Career <span>We're hiring</span></a>
+          </li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Customers</a></li>
+          <li><a href="">Hire us</a></li>
+        </ul>
+      </div>
+      <div class="features-column">
+        <h4>Features</h4>
+        <ul>
+          <li><a href="">Press</a></li>
+          <li><a href="">Release notes</a></li>
+          <li><a href="">Integrations</a></li>
+          <li><a href="">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="documentation-column">
+        <h4>Documentation</h4>
+        <ul>
+          <li><a href="">Support</a></li>
+          <li><a href="">Docs</a></li>
+          <li><a href="">Status</a></li>
+          <li><a href="">API Reference</a></li>
+          <li><a href="">Tech Requirements</a></li>
+        </ul>
+      </div>
+      <div class="Resources-column">
+        <h4>Resources</h4>
+        <a href="" class="help">
+          <img src="" alt="" />
+          <p>Help</p>
+        </a>
+        <a href="" class="account">
+          <img src="" alt="" />
+          <p>Your Account</p>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
