@@ -8,11 +8,27 @@
       src="https://kit.fontawesome.com/b8fa3feae3.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const colors = [
+          "red",
+          "blue",
+          "green",
+          "orange",
+          "purple",
+          "cyan",
+          "magenta",
+        ];
+        document.querySelectorAll("#pricing, #pricing  * ").forEach((el, i) => {
+          el.style.outline = `1px solid ${colors[i % colors.length]}`;
+        });
+      });
+    </script> -->
     <title>Saas company</title>
   </head>
   <body>
     <header>
-      <div class="logo"><img src="assets/logos/logo-front.svg" /></div>
+      <div class="main-logo"><img src="assets/logos/logo-front.svg" /></div>
       <div class="nav-menu">
         <ul class="main-nav">
           <li><a href="">Home</a></li>
@@ -21,7 +37,9 @@
           <li><a href="">Pricing</a></li>
           <li><a href="">Hire us</a></li>
         </ul>
-        <button>Buy Now</button>
+        <div class="button">
+          <button id="main-nav-button" type="button">Buy Now</button>
+        </div>
       </div>
     </header>
     <section id="hero-section">
@@ -31,28 +49,37 @@
           <p>Own the unlimited power of the web development</p>
         </div>
         <div class="cta-button-row">
-          <button>Play Video</button>
+          <button type="button" class="cta-1">
+            <i class="fa-solid fa-circle-play"></i>Play Video
+          </button>
           <a href="">Learn more</a>
         </div>
       </div>
       <div class="logo-column">
-        <div class="asana">
+        <div class="logo" id="asana">
           <img src="assets/logos/asana.png" alt="" />
         </div>
-        <div class="calendar">
+        <div class="logo" id="calendar">
           <img src="assets/logos/calendar.png" alt="" />
         </div>
-        <div class="weave"><img src="assets/logos/weave.png" alt="" /></div>
-        <div class="paypal"><img src="assets/logos/paypal.jpg" alt="" /></div>
-        <div class="attlasian">
+        <div class="logo" id="weave">
+          <img src="assets/logos/weave.png" alt="" />
+        </div>
+        <div class="logo" id="paypal">
+          <img src="assets/logos/paypal.jpg" alt="" />
+        </div>
+        <div class="logo" id="attlasian">
           <img src="assets/logos/atlassian.png" alt="" />
         </div>
-        <div class="googleAds">
+        <div class="logo" id="googleAds">
           <img src="assets/logos/google-ads.png" alt="" />
         </div>
-        <div class="google"><img src="assets/logos/google.png" alt="" /></div>
+        <div class="logo" id="google">
+          <img src="assets/logos/google.png" alt="" />
+        </div>
       </div>
     </section>
+
     <section id="whyFrontSection">
       <div class="title">
         <h2>Why front?</h2>
@@ -61,39 +88,78 @@
           projects on the web - it is the starting point for creative sites
         </p>
       </div>
-      <div class="feature-row">
-        <div class="feature">
-          <i class="fa-solid fa-circle"></i>
-          <p class="feature-text">Basic elements</p>
+
+      <div class="features">
+        <div class="basic-elements feature">
+          <div class="bullet">
+            <div class="bullet-left-one"></div>
+            <div class="circle">
+              <div class="dot"></div>
+            </div>
+            <div class="bullet-right-one"></div>
+          </div>
+          <h3>Basic elements</h3>
         </div>
-        <div class="feature">
-          <i class="fa-solid fa-circle"></i>
-          <p class="feature-text">Components</p>
+        <div class="components feature">
+          <div class="bullet">
+            <div class="bullet-left-two"></div>
+            <div class="circle">
+              <div class="dot"></div>
+            </div>
+            <div class="bullet-right-one"></div>
+          </div>
+          <h3>Components</h3>
         </div>
-        <div class="feature">
-          <i class="fa-solid fa-circle"></i>
-          <p class="feature-text">Combined components</p>
+        <div class="combined-components feature">
+          <div class="bullet">
+            <div class="bullet-left-two"></div>
+            <div class="circle">
+              <div class="dot"></div>
+            </div>
+            <div class="bullet-right-one"></div>
+          </div>
+          <h3>Combined components</h3>
         </div>
-        <div class="feature">
-          <i class="fa-solid fa-circle"></i>
-          <p class="feature-text">Page layouts</p>
+        <div class="page-layouts feature">
+          <div class="bullet">
+            <div class="bullet-left-two"></div>
+            <div class="circle">
+              <div class="dot"></div>
+            </div>
+            <div class="bullet-right-two"></div>
+          </div>
+          <h3>Page layouts</h3>
         </div>
       </div>
     </section>
+
     <section id="pricing">
-      <div class="title">
+      <div class="pricing-title">
         <h2>Pricing</h2>
         <p>No additional costs. Pay for what you use</p>
       </div>
       <div class="plans">
         <div class="price-box">
           <div class="info">
-            <p>59<sub>/ mo</sub></p>
+            <div id="price-wrapper">
+              <p id="price1">59</p>
+              <div id="mo">
+                <p id="price2">/</p>
+                <p id="price3">mo</p>
+              </div>
+            </div>
             <hr />
-            <p>No additional costs. Pay for what you use</p>
+            <p>
+              Start your Front business now. 100% guaranteed money back. No
+              questions asked.
+            </p>
           </div>
           <div class="action">
-            <button>Play Video</button>
+            <div class="funny">
+              <button type="button" class="cta-1">
+                <i class="fa-solid fa-circle-play"></i>Play Video
+              </button>
+            </div>
             <p>No credit card required.</p>
           </div>
         </div>
