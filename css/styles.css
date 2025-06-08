@@ -92,7 +92,7 @@ button {
   height: 446px;
   padding: 40px 30px 0 30px;
   background-image: url(../assets/bg/background-top.svg);
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .cta-column {
@@ -338,6 +338,9 @@ button.cta-1 {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 692px;
+  padding-bottom: 120px;
+  gap: 60px;
 }
 
 .pricing-title {
@@ -478,13 +481,85 @@ button.cta-1 {
   gap: 10px;
 }
 
-.funny {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: start; */
-  /* align-items: start; */
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  width: 564px;
+  height: 452px;
+  gap: 10px;
 }
 
 .feature-row {
   display: flex;
+  width: 564px;
+  height: 219px;
+  gap: 10px;
+}
+
+.item {
+  width: 277px;
+  gap: 20px;
+  border-width: 1px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+
+.item-inner {
+  width: 237px;
+  height: 179px;
+  gap: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* .item-title {
+  width: 564px;
+  height: 201px;
+  gap: 10px;
+} */
+
+.item-title h3 {
+  /* width: 224px; */
+  height: 22px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.item-inner p {
+  width: 237px;
+  height: 66px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+h3 span {
+  width: 60px;
+  /* height: 23px; */
+  /* padding-top: 4px; */
+  padding-right: 5px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  gap: 10px;
+  border-radius: 15px;
+  background: #01c9a7;
+}
+
+h3 span span {
+  width: 40px;
+  /* height: 15px; */
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
