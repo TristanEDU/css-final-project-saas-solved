@@ -837,3 +837,198 @@ textarea {
 /* --------------
    Footer Section
    --------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 246px;
+  gap: 40px;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.contact-area {
+  display: flex;
+  flex-direction: column;
+  /* width: 251px; */
+  height: 93.76113891601562;
+  gap: 20px;
+}
+
+.logo-footer {
+  width: 100px;
+  height: 29.761137008666992px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  height: 44px;
+  gap: 10px;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  width: 251px;
+  height: 17px;
+  gap: 9px;
+}
+
+.address i {
+  display: flex;
+  width: 11px;
+  height: 14px;
+  gap: 10px;
+  padding-top: 2px;
+}
+
+.address p {
+  display: flex;
+  width: 231px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #677788;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 17px;
+  gap: 9px;
+}
+
+.phone i {
+  display: flex;
+  width: 12px;
+  height: 14px;
+  gap: 10px;
+  padding-top: 2px;
+}
+
+.phone p {
+  display: flex;
+  width: 129px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #2576ff;
+}
+
+.frame15 {
+  display: flex;
+  width: 673px;
+  height: 166px;
+  gap: 49px;
+}
+
+.company-column {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 166px;
+  gap: 20px;
+}
+
+.company-column h4 {
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: black;
+}
+
+.company-column ul {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 125px;
+  padding: 0;
+  gap: 10px;
+}
+
+.company-column ul li {
+  display: flex;
+  width: 110px;
+  height: 17px;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.company-column ul li a {
+  display: flex;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.company-column ul li span {
+  display: flex;
+  width: 55px;
+  height: 14px;
+  gap: 10px;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  border-radius: 3px;
+  background: #2576ff;
+  flex-wrap: nowrap;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-column {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  height: 139px;
+  gap: 20px;
+}
+
+.documentation-column {
+  display: flex;
+  flex-direction: column;
+  width: 143px;
+  height: 166px;
+  gap: 20px;
+}
+
+.Resources-column {
+  display: flex;
+  flex-direction: column;
+  width: 112px;
+  height: 85px;
+  gap: 20px;
+}
