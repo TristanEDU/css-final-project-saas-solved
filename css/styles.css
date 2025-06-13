@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: space-between;
+  margin: auto;
   /* max-width: 1200px; */
 }
 
@@ -563,3 +564,276 @@ h3 span span {
   letter-spacing: 0%;
   color: #ffffff;
 }
+
+/* ----------------
+ Hire Us Section 
+ --------------- */
+
+#hire-us {
+  display: flex;
+  width: full;
+  justify-content: center;
+  height: 780px;
+  padding: 30px;
+  background-color: #20335b;
+}
+
+.hire-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex: 1 2; */
+  width: 482px;
+  padding-left: 70px;
+  gap: 60px;
+}
+
+.hire-column-top {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  gap: 32px;
+}
+
+.hire-column-header {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.hire-column-header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hire-column-header-title h2 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.hire-column-top p {
+  width: 363px;
+  height: 48px;
+
+  font-family: Inter;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+
+.hire-column-header-title p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #677788;
+}
+
+.hire-column-header hr {
+  height: 1px;
+  background-color: #ffffff;
+  margin: 0;
+  border: none;
+}
+
+.hire-column-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hire-column-bottom-person {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 43px;
+  gap: 4px;
+  padding-right: 20px;
+}
+
+.hire-column-bottom-person h3 {
+  width: 144px;
+  height: 22px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #fff;
+  margin: 0;
+}
+
+.hire-column-bottom-person p {
+  /* width: 188px; */
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #677788;
+}
+
+.hire-column-bottom-person-img {
+  width: 60px;
+  height: 60px;
+  gap: 30px;
+}
+
+.hire-column-bottom-person-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+#hire-us .contact {
+  display: flex;
+  flex-direction: column;
+  width: 482px;
+  height: 648px;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 482px;
+  height: 648px;
+  gap: 37px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  /* width: 392px;
+  height: 506px; */
+  gap: 20px;
+}
+
+.form-header p {
+  width: 392px;
+  height: 48px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: black;
+}
+
+.name,
+.form-email,
+.dropdowns {
+  display: flex;
+  width: 392px;
+  height: 44px;
+  gap: 20px;
+}
+
+.name input {
+  display: flex;
+  width: 186px;
+  height: 44px;
+  gap: 10px;
+  /* padding: 10px; */
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+
+.name input::content {
+  width: 71px;
+  height: 24px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.form-email input {
+  display: flex;
+  width: 392px;
+  height: 44px;
+  gap: 10px;
+  /* padding: 10px; */
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+
+.form-email input::content {
+  font-family: SF Pro;
+  font-weight: 510px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #828282;
+}
+
+select {
+  width: 186px;
+  height: 44px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+
+textarea {
+  display: flex;
+  width: 392px;
+  height: 100px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+
+.liability-waiver {
+  display: flex;
+  width: 392px;
+  height: 76px;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+.liability-waiver input {
+  display: flex;
+  width: 25px;
+  height: 28px;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.liability-waiver label {
+  display: flex;
+  flex-direction: column;
+  width: 351px;
+  height: 76px;
+  gap: 10px;
+}
+
+/* --------------
+   Footer Section
+   --------------- */
