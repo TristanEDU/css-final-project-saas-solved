@@ -15,6 +15,8 @@ a {
 /* ----------------*/
 /* HEADER Section */
 /*--------------- */
+/* #region Styles */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -94,10 +96,12 @@ button {
   font-size: 12px;
   gap: 20px;
 }
+/* #endregion */
 
 /* ----------------*/
 /* HERO Section */
 /*--------------- */
+/* #region Styles */
 
 #hero-section {
   display: flex;
@@ -233,10 +237,12 @@ button.cta-1 {
   border-radius: 50%;
   /* padding: 10px; */
 }
+/* #endregion */
 
 /* ----------------- */
 /* WHY Front Section */
 /* ----------------- */
+/* #region Styles */
 
 #whyFrontSection {
   display: flex;
@@ -352,10 +358,12 @@ button.cta-1 {
   display: flex;
   justify-content: center;
 }
+/* #endregion */
 
 /* ------------------------------------------------------------------- */
 /* ---------------------PRICING Section------------------------------- */
 /* ------------------------------------------------------------------- */
+/* #region Styles */
 
 #pricing {
   display: flex;
@@ -419,7 +427,6 @@ button.cta-1 {
   border-width: 1px;
   background: #ffffff;
   border: 1px solid #e2e2e2;
-  box-shadow: 0px 10px 20px 0px #00000026;
 }
 
 .info {
@@ -593,10 +600,12 @@ h3 span span {
   letter-spacing: 0;
   color: #ffffff;
 }
+/* #endregion */
 
 /* ----------------
  Hire Us Section 
  --------------- */
+/* #region Styles */
 
 #hire-us {
   display: flex;
@@ -873,10 +882,12 @@ textarea {
   height: 76px;
   gap: 10px;
 }
+/* #endregion */
 
 /* --------------
    Footer Section
    --------------- */
+/* #region Styles */
 
 footer {
   display: flex;
@@ -1198,3 +1209,4 @@ ul li a {
   color: #677788;
   text-decoration: none;
 }
+/* #endregion */

@@ -1,10 +1,14 @@
 @media (min-width: 1024px) {
-  .fa-bars {
+  i.fa-bars {
     display: none;
   }
 
   ul li a:hover {
     color: #2476ff;
+  }
+
+  .price-box:hover {
+    box-shadow: 0px 10px 20px 0px #00000026;
   }
 
   a:hover {
@@ -29,6 +33,13 @@
   #googleAds,
   #paypal {
     animation: logoicon3 2s;
+  }
+
+  button:hover {
+    color: #2476ff;
+    background-color: white;
+    outline: 1px solid #2476ff;
+    transition: 1s ease;
   }
 }
 
@@ -62,10 +73,15 @@
   }
 }
 
+/* -------------------------------------------------- */
+/* --------------RESPONSIVE CONTENT------------------ */
+/* -------------------------------------------------- */
+
 @media (max-width: 1023px) {
   body {
     max-width: 1023px;
   }
+
   .nav-menu {
     display: none;
   }
@@ -100,6 +116,7 @@
     top: 0;
     left: 533px;
   }
+
   #google {
     top: 0;
     left: 110px;
@@ -128,9 +145,6 @@
   #calendar {
     top: 229px;
     left: 517px;
-  }
-
-  #pricing {
   }
 
   .plans {
@@ -194,10 +208,10 @@
   .frame15 {
     flex-wrap: wrap;
     gap: 0;
+  }
 
-    div.footer-column {
-      margin: 20px;
-    }
+  div.footer-column {
+    margin: 20px;
   }
 }
 
@@ -206,41 +220,6 @@
     width: 100%;
     margin: 0 16px;
   }
-
-  /* #google {
-    top: 0;
-    left: 0;
-  }
-
-  #asana {
-    top: 0;
-    left: 248px;
-  }
-
-  #calendar {
-    top: 219px;
-    left: 239px;
-  }
-
-  #weave {
-    top: 99px;
-    left: 184px;
-  }
-
-  #paypal {
-    top: 99px;
-    left: 0;
-  }
-
-  #attlasian {
-    top: 0;
-    left: 144px;
-  }
-
-  #googleAds {
-    top: 209px;
-    left: 106px;
-  } */
 
   #google {
     top: 0px;
@@ -344,22 +323,26 @@
     width: 100%;
   }
 
-  .footer-content,
-  .frame15 {
-    flex-direction: column;
+  footer * {
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
     height: fit-content;
     width: fit-content;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
   }
 
-  ul,
-  li,
-  a {
+  div.footer-content {
+    flex-direction: column;
+  }
+
+  div.footer-column {
     width: fit-content;
+    height: fit-content;
+    gap: 0;
+  }
+
+  .frame15 {
+    flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
   }
 }
