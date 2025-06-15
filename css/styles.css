@@ -5,9 +5,16 @@ body {
   flex-direction: column;
   align-content: space-between;
   margin: auto;
-  /* max-width: 1200px; */
+  /* width: 1024px; */
 }
 
+a {
+  text-decoration: none;
+  color: #677788;
+}
+/* ----------------*/
+/* HEADER Section */
+/*--------------- */
 header {
   display: flex;
   justify-content: space-between;
@@ -17,7 +24,7 @@ header {
 
 .main-logo {
   width: 154.9px;
-  height: 46.1;
+  height: 46.1px;
   gap: 10px;
 }
 
@@ -39,7 +46,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #677788;
   list-style: none;
 }
@@ -77,7 +84,7 @@ button {
   color: white;
   line-height: 100%;
   border: none;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 #main-nav-button {
@@ -88,9 +95,13 @@ button {
   gap: 20px;
 }
 
+/* ----------------*/
+/* HERO Section */
+/*--------------- */
+
 #hero-section {
   display: flex;
-  height: 446px;
+  /* height: 446px; */
   padding: 40px 30px 0 30px;
   background-image: url(../assets/bg/background-top.svg);
   justify-content: space-evenly;
@@ -112,14 +123,14 @@ button {
 .title-column {
   display: flex;
   flex-direction: column;
-  width: 334px;
-  height: 172px;
+  /* width: 334px; */
+  /* height: 172px; */
   gap: 11px;
 }
 
 h1 {
-  width: 334px;
-  height: 144px;
+  /* width: 334px; */
+  /* height: 144px; */
   font-family: inter;
   font-size: 40px;
   font-weight: 500;
@@ -128,8 +139,8 @@ h1 {
 }
 
 p {
-  width: 334px;
-  height: 17px;
+  /* width: 334px; */
+  /* height: 17px; */
   font-family: inter;
   font-weight: 500;
   font-size: 14px;
@@ -146,11 +157,12 @@ p {
 button.cta-1 {
   display: flex;
   gap: 8px;
-  /* justify-content: space-between; */
-  /* align-content: space-between; */
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .logo-column {
+  display: flex;
   position: relative;
   justify-content: center;
   /* width: 50%;
@@ -160,18 +172,21 @@ button.cta-1 {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 80px;
   height: 80px;
   background: #ffffff;
   box-shadow: 0px 3px 13px 0px #00000040;
   border-radius: 50%;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .logo img {
-  width: 100%;
-  height: 100%;
+  width: 48px;
+  height: 48px;
 
   object-fit: contain;
 }
@@ -207,7 +222,7 @@ button.cta-1 {
   top: 290px;
   left: 155px;
   border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 #google {
@@ -216,8 +231,12 @@ button.cta-1 {
   top: 10px;
   left: 64px;
   border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
 }
+
+/* ----------------- */
+/* WHY Front Section */
+/* ----------------- */
 
 #whyFrontSection {
   display: flex;
@@ -247,7 +266,7 @@ button.cta-1 {
   font-weight: 700;
   font-size: 26px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   margin: 0;
 }
@@ -259,7 +278,7 @@ button.cta-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -334,12 +353,16 @@ button.cta-1 {
   justify-content: center;
 }
 
+/* --------------- */
+/* PRICING Section */
+/* --------------- */
+
 #pricing {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 692px;
+  height: fit-content;
   padding-bottom: 120px;
   gap: 60px;
 }
@@ -360,7 +383,7 @@ button.cta-1 {
   font-weight: 700;
   font-size: 26px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   margin: 0;
 }
@@ -372,7 +395,7 @@ button.cta-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -390,7 +413,7 @@ button.cta-1 {
   align-items: center;
   justify-content: start;
   width: 370px;
-  height: 452px;
+  height: fit-content;
   gap: 50px;
   padding: 40px;
   border-width: 1px;
@@ -404,7 +427,7 @@ button.cta-1 {
   flex-direction: column;
   align-items: start;
   width: 290px;
-  height: 194px;
+  height: fit-content;
   /* gap: 30px; */
 }
 
@@ -424,7 +447,7 @@ button.cta-1 {
   font-weight: 500;
   font-size: 50px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #000;
 }
 
@@ -444,7 +467,7 @@ button.cta-1 {
   font-weight: 510;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #677788;
 }
 
@@ -455,7 +478,7 @@ button.cta-1 {
   font-weight: 510;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .info hr {
@@ -473,20 +496,26 @@ button.cta-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .action {
+  display: flex;
+  flex-direction: column;
   width: 290px;
-  height: 73px;
+  height: fit-content;
   gap: 10px;
+}
+
+.funny {
+  display: flex;
 }
 
 .feature-box {
   display: flex;
   flex-direction: column;
   width: 564px;
-  height: 452px;
+  height: fit-content;
   gap: 10px;
 }
 
@@ -498,7 +527,7 @@ button.cta-1 {
 }
 
 .item {
-  width: 277px;
+  width: 50%;
   gap: 20px;
   border-width: 1px;
   padding: 20px;
@@ -506,7 +535,7 @@ button.cta-1 {
 }
 
 .item-inner {
-  width: 237px;
+  /* width: 237px; */
   height: 179px;
   gap: 20px;
 }
@@ -529,17 +558,17 @@ button.cta-1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .item-inner p {
-  width: 237px;
+  /* width: 237px; */
   height: 66px;
   font-family: Inter;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 h3 span {
@@ -561,7 +590,7 @@ h3 span span {
   font-weight: 700;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #ffffff;
 }
 
@@ -571,10 +600,11 @@ h3 span span {
 
 #hire-us {
   display: flex;
-  width: full;
-  justify-content: center;
-  height: 780px;
-  padding: 30px;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+  height: fit-content;
+  /* padding: 30px; */
   background-color: #20335b;
 }
 
@@ -583,8 +613,9 @@ h3 span span {
   flex-direction: column;
   justify-content: center;
   /* flex: 1 2; */
-  width: 482px;
-  padding-left: 70px;
+  width: fit-content;
+  /* padding-left: 70px; */
+  margin-left: 70px;
   gap: 60px;
 }
 
@@ -612,7 +643,7 @@ h3 span span {
   font-weight: 700;
   font-size: 26px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   /* text-align: center; */
   color: #ffffff;
 }
@@ -635,7 +666,7 @@ h3 span span {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #677788;
 }
 
@@ -667,7 +698,7 @@ h3 span span {
   font-family: Inter;
   font-weight: 700;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 100;
   letter-spacing: 0;
   color: #fff;
   margin: 0;
@@ -680,7 +711,7 @@ h3 span span {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #677788;
 }
 
@@ -699,8 +730,9 @@ h3 span span {
 #hire-us .contact {
   display: flex;
   flex-direction: column;
-  width: 482px;
+  width: fit-content;
   height: 648px;
+  margin: 30px;
   gap: 10px;
 }
 
@@ -708,7 +740,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 482px;
+  /* width: 482px; */
   height: 648px;
   gap: 37px;
   padding: 30px;
@@ -779,7 +811,7 @@ form {
 
 .form-email input::content {
   font-family: SF Pro;
-  font-weight: 510px;
+  font-weight: 510;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -847,6 +879,7 @@ footer {
   padding-right: 30px;
   padding-bottom: 40px;
   padding-left: 30px;
+  align-items: center;
 }
 
 .footer-content {
@@ -859,7 +892,7 @@ footer {
   display: flex;
   flex-direction: column;
   /* width: 251px; */
-  height: 93.76113891601562;
+  height: 93.76113891601562px;
   gap: 20px;
 }
 
@@ -1017,6 +1050,45 @@ footer {
   gap: 20px;
 }
 
+.features-column h4 {
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: black;
+}
+
+.features-column ul {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 125px;
+  padding: 0;
+  gap: 10px;
+}
+
+.features-column ul li {
+  display: flex;
+  width: 110px;
+  height: 17px;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.features-column ul li a {
+  display: flex;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
 .documentation-column {
   display: flex;
   flex-direction: column;
@@ -1025,10 +1097,91 @@ footer {
   gap: 20px;
 }
 
+.documentation-column h4 {
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: black;
+}
+
+.documentation-column ul {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 125px;
+  padding: 0;
+  gap: 10px;
+}
+
+.documentation-column ul li {
+  display: flex;
+  width: 110px;
+  height: 17px;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.documentation-column ul li a {
+  display: flex;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
 .Resources-column {
   display: flex;
   flex-direction: column;
   width: 112px;
   height: 85px;
-  gap: 20px;
+  /* gap: 20px; */
+}
+
+.Resources-column h4 {
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.Resources-column a {
+  display: flex;
+  width: 112px;
+  height: 17px;
+  gap: 9px;
+  color: #677788;
+  text-decoration: none;
+}
+
+.Resources-column a p {
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #677788;
+}
+
+ul li a {
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #677788;
+  text-decoration: none;
 }

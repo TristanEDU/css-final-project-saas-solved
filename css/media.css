@@ -1,0 +1,175 @@
+@media (min-width: 1024px) {
+  .fa-bars {
+    display: none;
+  }
+
+  ul li a:hover {
+    color: #2476ff;
+  }
+
+  a:hover {
+    color: #2476ff;
+  }
+
+  a p:hover {
+    color: #2476ff;
+  }
+
+  #asana,
+  #calendar,
+  #weave {
+    animation: logoicon1 2s;
+  }
+
+  #google,
+  #attlasian {
+    animation: logoicon2 2s;
+  }
+
+  #googleAds,
+  #paypal {
+    animation: logoicon3 2s;
+  }
+}
+
+@keyframes logoicon1 {
+  from {
+    translate: 150vw 0;
+  }
+
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes logoicon2 {
+  from {
+    transform: translateY(-110vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoicon3 {
+  from {
+    transform: translateY(110vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1023px) {
+  body {
+    max-width: 1023px;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  #hero-section {
+    flex-direction: column;
+    height: 664px;
+    align-items: center;
+    /* background-image: url(../assets/bg/background-top.svg); */
+    background-size: 100vw 417px;
+    background-repeat: no-repeat;
+  }
+
+  .cta-column {
+    width: 100%;
+    height: 305px;
+    align-items: center;
+    justify-content: start;
+    background: none;
+    /* padding-bottom: 60px; */
+  }
+
+  .title-column {
+    align-items: center;
+  }
+
+  .logo-column {
+    width: 69.5%;
+  }
+
+  #asana {
+    top: 0;
+    left: 533px;
+  }
+  #google {
+    top: 0;
+    left: 110px;
+  }
+
+  #attlasian {
+    top: 0;
+    left: 287px;
+  }
+
+  #paypal {
+    top: 99px;
+    left: 112px;
+  }
+
+  #weave {
+    top: 99px;
+    left: 414px;
+  }
+
+  #googleAds {
+    top: 209px;
+    left: 230px;
+  }
+
+  #calendar {
+    top: 229px;
+    left: 517px;
+  }
+
+  #pricing {
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    max-width: 91.4%;
+    height: fit-content;
+  }
+
+  .price-box {
+    width: calc(100% - 80px);
+  }
+
+  .info {
+    align-items: center;
+    width: 88%;
+  }
+
+  .feature-box {
+    width: calc(100% - 80px);
+    align-items: center;
+  }
+
+  .feature-row,
+  .item-inner *:not(:first-child),
+  .info hr,
+  .info p,
+  .action {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  #hire-us {
+    flex-direction: column;
+  }
+
+  .hire-column {
+    flex-direction: row;
+  }
+}
